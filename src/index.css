@@ -7,12 +7,9 @@
 
 @layer base {
     html, body, #root, .app {
-        background: rgba(46, 45, 45, 0.64);
-        filter: blur(2px);
-        backdrop-filter: blur(2px);
         height: 100%;
         width: 100%;
-        font-family: "Montserrat" , sans-serif;
-        @apply text-white;
+        /*font-family: "Montserrat" , sans-serif;*/
+        @apply bg-[#22252A] text-white
     }
 }

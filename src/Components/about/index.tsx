@@ -42,15 +42,12 @@ const About = ({ setSelectedPage }: Props) => {
             Lorem ipsum dolor sit amet consectetur. In varius convallis in
             tincidunt tempor at. Tincidunt enim ut amet commodo. Fusce platea
             quam nam posuere tincidunt erat felis ultrices mauris. Cras
-            pellentesque massa eget posuere laoreet nunc viverra. Duis malesuada
-            placerat non id magna amet erat viverra a. Nisi bibendum sit sed
-            commodo ut aliquam augue. Aliquam duis ut dapibus proin orci non
-            dui. Integer mattis sit .
+            pellentesque massa eget posuere laoreet nunc viverra.
           </p>
         </div>
 
         {/*  DETAILS */}
-        <div className="mt-5 items-center justify-between gap-8 md:flex">
+        <div className="mt-5 flex gap-8 overflow-x-scroll scrollbar-hide">
           {details.map((detail: Details) => (
             <DetailsComp
               key={detail.title}

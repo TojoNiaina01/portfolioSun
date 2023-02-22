@@ -15,7 +15,7 @@ type Props = {
 
 const Navbar = ({ selectedPage, isTopPage, setSelectedPage }: Props) => {
   const mediaLimit = useMediaQuery("(min-width:1060px)");
-  const navStyle = isTopPage ? "py-6" : "py-3 bg-[#0E1623]/90";
+  const navStyle = isTopPage ? "py-6" : "py-1 bg-[#0E1623]/90";
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
   const btnRef = useRef<HTMLButtonElement>(null);
 
@@ -41,7 +41,7 @@ const Navbar = ({ selectedPage, isTopPage, setSelectedPage }: Props) => {
             {/* Right Side NavBar */}
             {mediaLimit ? (
               <>
-                <div className="text-[#D2D2D2 flex items-center justify-between gap-14 text-sm tracking-wider">
+                <div className="flex items-center justify-between gap-14 text-sm tracking-wider text-[#D2D2D2]">
                   <Link
                     page="Home"
                     setSelectedPage={setSelectedPage}

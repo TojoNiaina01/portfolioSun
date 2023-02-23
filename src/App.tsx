@@ -4,6 +4,7 @@ import Navbar from "@/Components/navbar";
 import Home from "@/Components/home";
 import About from "@/Components/about";
 import Portfolio from "@/Components/portfolio";
+import Services from "@/Components/services";
 
 export default function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -31,6 +32,7 @@ export default function App() {
       <Home setSelectedPage={setSelectedPage} />
       <About setSelectedPage={setSelectedPage} />
       <Portfolio setSelectedPage={setSelectedPage} />
+      <Services setSelectedPage={setSelectedPage} />
     </div>
   );
 }

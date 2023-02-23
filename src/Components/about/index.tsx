@@ -31,7 +31,7 @@ const details: Array<Details> = [
 
 const About = ({ setSelectedPage }: Props) => {
   return (
-    <section id="about" className="mx-auto h-full w-5/6 py-14">
+    <section id="about" className="mx-auto h-full w-5/6 py-16">
       <div className="">
         {/* HEADERS */}
         <div className="md:my-5">

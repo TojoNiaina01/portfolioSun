@@ -9,7 +9,7 @@ type Props = {
 };
 const Portfolio = ({ setSelectedPage }: Props) => {
   return (
-    <section id="portfolio" className="mx-auto h-full w-5/6 py-14">
+    <section id="portfolio" className="mx-auto h-full w-5/6 py-16">
       <div className="">
         {/* HEADERS */}
         <div className="md:my-5">
